@@ -164,7 +164,7 @@ check the reported output files:
 
 ### Positive Selection Analysis
 
-detect the signal of positive selection at at least one site on at least one branch of *a propri* defined branches (e.g. alkaline tolerant fish)
+1. detect the signal of positive selection at at least one site on at least one branch of *a propri* defined branches (e.g. alkaline tolerant fish)
 - input files:
 - codon alignment file (phylip format)
 - phylogenetic tree file (nwk format, add label)
@@ -172,4 +172,28 @@ detect the signal of positive selection at at least one site on at least one bra
 ```
 snakemake --cores=1 -s snakefile_busted
 ```
+2. extract positively selected genes
 
+BUSTED model automatically discard the gene with reported LRT P value > 0.5
+
+further check the reported output files:
+- gene with LRT P value < 0.05: positively selected gene
+
+### Gene Ontology (GO) Enrichment Analysis
+
+1. prepare the background GO dataset for shared orthologs
+
+use Trinoate pipeline [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
+
+2. prepare input geneset (e.g. rapidly evolving genes)
+introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
+
+- algorithm = "classic"
+- statistic = "fisher"
+
+- input files: gene.csv and fish_go_annotation.csv
+- output file: gene_classic_fisher_enriched_GO.csv
+
+```
+Rscript topGO_run.R
+```
