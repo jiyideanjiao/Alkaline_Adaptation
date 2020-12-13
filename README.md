@@ -68,7 +68,12 @@ BUSCO
 
 introduction to **R** package, **phangorn** [link](https://cran.r-project.org/web/packages/phangorn/phangorn.pdf)
 
-define the function tree_from_aln
+define the function 
+
+input files:
+codon/AA alignment file (fasta/phylip format)
+phylogenetic tree file (nwk format, add label)
+
 ```
 Rscript pruned_tree.R
 ```
