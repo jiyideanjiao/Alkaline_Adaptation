@@ -67,7 +67,9 @@ Rscript pruned_tree.R
 
 ### Ortholog identification
 
-
+```
+OMA -n 40
+```
 
 
 ### Molecular Evolution Analysis
