@@ -86,7 +86,16 @@ OMA -n 40
 conda install -c bioconda hyphy
 ```
 
+define foreground branches: species {test}
+- input files:
+- codon alignment file (phylip format)
+- phylogenetic tree file (nwk format, add label)
 
-
+run script with snakemake [link](https://snakemake.readthedocs.io/en/stable/)
+```
+snakemake --cores=1 -s snakefile_relax
+```
 
 ### Positive Selection Analysis
+
+
