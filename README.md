@@ -23,7 +23,7 @@ Trinity \
 --normalize_reads \
 --normalize_max_read_cov 100
 ```
-- e.g *Gymnocypris przewalskii*
+
 - output files:
 - GPRZ.fa
 
