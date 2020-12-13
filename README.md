@@ -37,6 +37,7 @@ Trinity \
 ### Removed Redundant Transcripts
 - introduction to **CD-HIT** [link](http://weizhongli-lab.org/lab-wiki/doku.php?id=cd-hit-user-guide)
 - install **CD-HIT** via **conda**
+- I love conda! :heart_eyes:
 ```
 conda install -c bioconda cd-hit
 ```
