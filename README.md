@@ -1,6 +1,6 @@
 ## Comparative Genomics Analysis of Fish Alkaline Adaptation
  
-Chao Tong
+Author: Chao Tong
 (Dec-12, 2020)
 
 1. Project description:
