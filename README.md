@@ -66,6 +66,12 @@ Rscript pruned_tree.R
 
 
 ### Ortholog identification
+introduction to OMA [link](https://omabrowser.org/oma/home/)
+- install OMA via conda
+```
+conda install -c hcc oma
+```
+update the <parameters.drw> file
 
 ```
 OMA -n 40
