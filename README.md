@@ -24,8 +24,7 @@ Trinity \
 --normalize_max_read_cov 100
 ```
 
-- output files:
-- GPRZ.fa
+- output files: GPRZ.fa (fasta format)
 
 ### Protein-Coding Gene Prediction
 
@@ -36,9 +35,9 @@ TransDecoder.Predict -t transcripts_0.9.fa
 ```
 
 - output files:
-- GPRZ_0.9.fa
-- GPRZ.cds (nucleotide sequence)
-- GPRZ.pep (protein sequence)
+1. GPRZ_0.9.fa
+2. GPRZ.cds (nucleotide sequence)
+3. GPRZ.pep (protein sequence)
 
 ### BUSCO analysis
 
