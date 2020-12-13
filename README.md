@@ -37,7 +37,7 @@ Trinity \
 
 - output files: GPRZ.fa (fasta format)
 
-### Removed Redundant transcripts using CD-HIT
+### Removed Redundant Transcripts
 - introduction to **CD-HIT** [link](http://weizhongli-lab.org/lab-wiki/doku.php?id=cd-hit-user-guide)
 - install **CD-HIT** via **conda**
 ```
@@ -100,6 +100,15 @@ update the <parameters.drw> file
 ```
 OMA -n 40
 ```
+### Sequence Alignment
+1. prepare Amino Acid Sequence Alignment
+introduction to **MUSCLE** [link](https://www.ebi.ac.uk/Tools/msa/muscle/)
+- install **MUSCLE** via **conda**
+```
+conda install -c bioconda muscle
+```
+
+
 
 
 ### Molecular Evolution Analysis
