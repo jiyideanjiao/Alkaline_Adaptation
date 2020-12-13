@@ -1,4 +1,4 @@
-## Comparative genomics analysis of fish alkaline adaptation
+## Comparative Genomics Analysis of Fish Alkaline Adaptation
  
 Chao Tong
 (Dec-12, 2020)
