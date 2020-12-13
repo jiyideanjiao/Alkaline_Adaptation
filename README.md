@@ -59,7 +59,12 @@ BUSCO
 
 ### Molecular Evolution Analysis
 1. Rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
-HyPHY [link](http://www.hyphy.org/)
+- download HyPHY [link](http://www.hyphy.org/)
+- install HyPHY
+```
+conda install hyphy
+```
+
 
 
 
