@@ -71,8 +71,8 @@ introduction to **R** package, **phangorn** [link](https://cran.r-project.org/we
 define the function *pruneTreeFromAln*
 
 input files:
-codon/AA alignment file (fasta/phylip format)
-phylogenetic tree file (nwk format, add label)
+- codon/AA alignment file (fasta/phylip format)
+- phylogenetic tree file (nwk format, add label)
 
 ```
 Rscript pruned_tree.R
