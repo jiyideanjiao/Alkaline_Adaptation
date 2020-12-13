@@ -23,18 +23,12 @@ Trinity \
 --normalize_reads \
 --normalize_max_read_cov 100
 ```
-- output:
-1. *Gymnocypris przewalskii*
+- output files:
+- e.g *Gymnocypris przewalskii*
 - GPRZ.fa
 - GPRZ_0.9.fa
 - GPRZ.cds (nucleotide sequence)
 - GPRZ.pep (protein sequence)
-
-2. *Gymnocypris kelukehuensis*
-- GKLK.fa
-- GKLK_0.9.fa
-- GKLK.cds (nucleotide sequence)
-- GKLK.pep (protein sequence)
 
 ### Protein-Coding Gene Prediction
 
