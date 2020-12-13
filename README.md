@@ -62,7 +62,7 @@ BUSCO
 - download HyPHY [link](http://www.hyphy.org/)
 - install HyPHY
 ```
-conda install hyphy
+conda install -c bioconda hyphy
 ```
 
 
