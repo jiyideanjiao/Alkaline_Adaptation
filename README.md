@@ -13,6 +13,8 @@ Author: Chao Tong
 
 - introduction to **Trinity** [link](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
 - install **Trinity** via **conda**
+- I love conda! :heart_eyes:
+
 ```
 conda install -c bioconda trinity
 ```
@@ -37,7 +39,7 @@ Trinity \
 ### Removed Redundant Transcripts
 - introduction to **CD-HIT** [link](http://weizhongli-lab.org/lab-wiki/doku.php?id=cd-hit-user-guide)
 - install **CD-HIT** via **conda**
-- I love conda! :heart_eyes:
+
 ```
 conda install -c bioconda cd-hit
 ```
