@@ -6,7 +6,7 @@
 
 2. Code availability for submission:
 
-    Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv [(https://www.biorxiv.org/content/10.1101/813501v1.full)]. 2020
+    Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv ([https://www.biorxiv.org/content/10.1101/813501v1.full]). 2020
 
 ###### Transcriptome de novo assembly
 ```
