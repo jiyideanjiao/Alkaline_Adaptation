@@ -59,7 +59,10 @@ BUSCO
 
 ### Species phylogeny
 
-
+define the function tree_from_aln
+```
+Rscript pruned_tree.R
+```
 
 
 ### Ortholog identification
