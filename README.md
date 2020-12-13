@@ -8,5 +8,5 @@ Code availability for submission:
 
 Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish
 
-#Transcriptome de novo assembly
-$Trinity
+# Transcriptome de novo assembly
+$ Trinity
