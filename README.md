@@ -178,9 +178,8 @@ further check the reported output files:
 - gene with LRT P value < 0.05: positively selected gene
 
 ### Gene Ontology (GO) Enrichment Analysis
-
 1. prepare the background GO dataset for shared orthologs
-use **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
+introduction to **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
 
 2. prepare input geneset (e.g. rapidly evolving genes)
 introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
