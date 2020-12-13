@@ -19,7 +19,7 @@ Chao Tong
 ```
 conda install -c bioconda trinity
 ```
-start **de novo** assembly
+start *de novo* assembly
 ```
 Trinity \
 --trimmomatic \
