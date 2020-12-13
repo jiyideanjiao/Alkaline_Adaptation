@@ -1,4 +1,4 @@
-###### Comparative genomic analysis of alkaline tolerant and alkaline intolerant fish species 
+###### **Comparative genomic analysis of alkaline tolerant and alkaline intolerant fish species**
 
 1. project description:
 
