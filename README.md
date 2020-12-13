@@ -1,5 +1,7 @@
 # alkaline_adaptation
 
+project description:
+
 comparative genomics study to understand how Tibetan highland fish adapt to highly alkaline environment
 
 Code availability for submission:
