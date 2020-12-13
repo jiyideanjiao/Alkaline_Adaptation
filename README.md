@@ -107,8 +107,11 @@ introduction to **MUSCLE** [link](https://www.ebi.ac.uk/Tools/msa/muscle/)
 ```
 conda install -c bioconda muscle
 ```
-
-
+- input file: {gene}.fas (fasta format)
+- output file: {gene}.aln (fasta format)
+```
+snakemake --cores=1 -s snakefile_muscle
+```
 
 
 ### Molecular Evolution Analysis
