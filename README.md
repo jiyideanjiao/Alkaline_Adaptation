@@ -12,7 +12,7 @@ Chao Tong
 
     Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
 
-### Transcriptome *de novo* Assembly
+### Transcriptome Assembly
 
 - introduction to **Trinity** [link](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
 - install **Trinity** via **conda**
@@ -70,7 +70,6 @@ input files:
 ```
 Rscript pruned_tree.R
 ```
-
 
 ### Ortholog identification
 introduction to **OMA** [link](https://omabrowser.org/oma/home/)
