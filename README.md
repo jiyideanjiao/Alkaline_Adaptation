@@ -108,6 +108,9 @@ snakemake --cores=1 -s snakefile_relax
 ### Positive Selection Analysis
 
 detect the signal of positive selection at at least one site on at least one branch of *a propri* defined branches (e.g. alkaline tolerant fish)
+- input files:
+- codon alignment file (phylip format)
+- phylogenetic tree file (nwk format, add label)
 
 ```
 snakemake --cores=1 -s snakefile_busted
