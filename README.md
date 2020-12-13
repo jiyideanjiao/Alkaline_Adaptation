@@ -109,7 +109,7 @@ snakemake --cores=1 -s snakefile_relax
 2. Likelihood Ratio Test
 - lnLH1: two discrete ratios of dN/dS
 - lnLH0: one ratio of dN/dS
-``
+```
 ΔlnL = 2(lnLH1-lnLH0)
 ```
 discard the gene with reported LRT P value > 0.05 
