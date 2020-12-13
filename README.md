@@ -1,4 +1,4 @@
-# Comparative genomic analysis of alkaline tolerant and alkaline intolerant fish species 
+## Comparative genomic analysis of alkaline tolerant and alkaline intolerant fish species 
 
 1. project description:
 
@@ -8,5 +8,5 @@
 
     Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv. 2020
 
-# Transcriptome de novo assembly
-$ Trinity
+## Transcriptome de novo assembly
+<Trinity>
