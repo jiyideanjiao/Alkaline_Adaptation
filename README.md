@@ -173,19 +173,17 @@ check the reported output files:
 snakemake --cores=1 -s snakefile_busted
 ```
 2. extract positively selected genes
-
 BUSTED model automatically discard the gene with reported LRT P value > 0.5
-
 further check the reported output files:
 - gene with LRT P value < 0.05: positively selected gene
 
 ### Gene Ontology (GO) Enrichment Analysis
 
 1. prepare the background GO dataset for shared orthologs
- use **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
+use **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
 
 2. prepare input geneset (e.g. rapidly evolving genes)
- introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
+introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
 
 - algorithm = "classic"
 - statistic = "fisher"
