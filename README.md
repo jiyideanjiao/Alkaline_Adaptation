@@ -161,7 +161,7 @@ check the reported output files:
 
 ### Positive Selection Analysis
 
-1. detect the signal of positive selection at at least one site on at least one branch of *a propri* defined branches (e.g. alkaline tolerant fish)
+1. detect the signal of positive selection at at least one site on at least one branch of *a prori* defined branches (e.g. alkaline tolerant fish)
 - input files:
 - codon alignment file (phylip format)
 - phylogenetic tree file (nwk format, add label)
