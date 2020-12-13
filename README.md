@@ -87,6 +87,11 @@ conda install -c hcc oma
 ```
 update the <parameters.drw> file
 
+- input files:
+- genome data: protein sequences
+- parameters.drw
+- phylogenetic tree: define a outgroup
+
 ```
 OMA -n 40
 ```
