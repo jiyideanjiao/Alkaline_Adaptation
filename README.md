@@ -73,7 +73,7 @@ TransDecoder.Predict -t transcripts_0.9.fa
 
 define the function *pruneTreeFromAln*
 
-input files:
+- input files:
 - codon/AA alignment file (fasta/phylip format)
 - phylogenetic tree file (nwk format, add label)
 
