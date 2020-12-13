@@ -28,6 +28,11 @@ Trinity \
 
 ```
 cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
+TransDecoder.LongOrfs -t transcripts_0.9.fa
+TransDecoder.Predict -t transcripts_0.9.fa
+```
+### BUSCO analysis
 
-
+```
+BUSCO
 ```
