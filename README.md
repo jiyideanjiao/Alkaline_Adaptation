@@ -115,9 +115,17 @@ snakemake --cores=1 -s snakefile_relax
 discard the gene with reported LRT P value > 0.05 
 
 
-2. extract rapidly evolving gene
-- 
+3. extract rapidly evolving gene
+
+compare the two ratios of dN/dS, LRT P value < 0.05
 - ω(alkaline tolerant species) > ω(alkaline intolerant species): rapidly evolving genes in alkaline tolerant species
+
+4. test for relaxation/intensification
+check the reported output files:
+
+- "Evidence for relaxation": K < 1
+- "Evidence for intensification": K > 1
+
 
 ### Positive Selection Analysis
 
