@@ -2,13 +2,13 @@
 
 1. Project description:
 
-    comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
+    Comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
 
 2. Code availability for submission:
 
     Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
 
-### Transcriptome de novo assembly
+### Transcriptome de novo Assembly
 ```
 Trinity \
 --trimmomatic \
@@ -22,4 +22,12 @@ Trinity \
 --quality_trimming_params "SLIDINGWINDOW:4:20 LEADING:10 TRAILING:10 MINLEN:70"  \
 --normalize_reads \
 --normalize_max_read_cov 100
+```
+
+### Protein-Coding Gene Prediction
+
+```
+cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
+
+
 ```
