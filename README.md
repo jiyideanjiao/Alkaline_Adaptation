@@ -32,6 +32,13 @@ Trinity \
 
 ### Protein-Coding Gene Prediction
 
+introduction to TransDecoder [link](https://github.com/TransDecoder/TransDecoder/wiki)
+install TransDecoder via conda
+```
+conda install -c bioconda transdecoder
+```
+
+
 ```
 cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
 TransDecoder.LongOrfs -t transcripts_0.9.fa
@@ -62,8 +69,8 @@ BUSCO
 
 ### Molecular Evolution Analysis
 1. Rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
-- download HyPHY [link](http://www.hyphy.org/)
-- install HyPHY
+- introduction of HyPHY [link](http://www.hyphy.org/)
+- install HyPHY via conda
 ```
 conda install -c bioconda hyphy
 ```
