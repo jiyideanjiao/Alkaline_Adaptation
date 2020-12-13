@@ -68,7 +68,7 @@ BUSCO
 
 introduction to **R** package, **phangorn** [link](https://cran.r-project.org/web/packages/phangorn/phangorn.pdf)
 
-define the function 
+define the function *pruneTreeFromAln*
 
 input files:
 codon/AA alignment file (fasta/phylip format)
