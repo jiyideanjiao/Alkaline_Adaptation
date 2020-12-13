@@ -88,7 +88,7 @@ OMA -n 40
 
 
 ### Molecular Evolution Analysis
-1. Rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
+estimate the rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
 - introduction to **HyPHY** [link](http://www.hyphy.org/)
 - install **HyPHY** via **conda**
 ```
@@ -106,6 +106,8 @@ snakemake --cores=1 -s snakefile_relax
 ```
 
 ### Positive Selection Analysis
+
+detect the signal of positive selection at at least one site on at least one branch of *a propri* defined branches (e.g. alkaline tolerant fish)
 
 ```
 snakemake --cores=1 -s snakefile_busted
