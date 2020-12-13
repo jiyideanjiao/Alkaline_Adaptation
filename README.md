@@ -179,11 +179,10 @@ further check the reported output files:
 
 ### Gene Ontology (GO) Enrichment Analysis
 1. prepare the background GO dataset for shared orthologs
-
-introduction to **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
+ introduction to **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
 
 2. prepare input geneset (e.g. rapidly evolving genes)
-introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
+ introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
 
 - algorithm = "classic"
 - statistic = "fisher"
@@ -194,3 +193,7 @@ introduction to **R** package, **topGO** [link](https://bioconductor.org/package
 ```
 Rscript topGO_run.R
 ```
+3. further exculte similarity filter
+ introduction to **REVIGO** [link](http://revigo.irb.hr/)
+- input files: enriched_GO.txt (paste to blank on the web page)
+- output files: download, or make a Rscript
