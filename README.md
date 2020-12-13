@@ -2,7 +2,7 @@
 
 1. project description:
 
-    comparative genomics study to understand how Tibetan highland fish adapt to highly alkaline environment
+    comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
 
 2. Code availability for submission:
 
