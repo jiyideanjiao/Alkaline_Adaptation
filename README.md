@@ -147,12 +147,12 @@ snakemake --cores=1 -s snakefile_relax
 ```
 ΔlnL = 2(lnLH1-lnLH0)
 ```
-discard the gene with reported LRT P value > 0.05 
+discard the gene with reported LRT *P* value > 0.05 
 
 
 3. extract rapidly evolving gene
 
-compare the two ratios of dN/dS, LRT P value < 0.05
+compare the two ratios of dN/dS, LRT *P* value < 0.05
 - ω(alkaline tolerant species) > ω(alkaline intolerant species): rapidly evolving genes in alkaline tolerant species
 
 4. test for relaxation/intensification
@@ -173,9 +173,9 @@ check the reported output files:
 snakemake --cores=1 -s snakefile_busted
 ```
 2. extract positively selected genes
-BUSTED model automatically discard the gene with reported LRT P value > 0.5
+BUSTED model automatically discard the gene with reported LRT *P* value > 0.5
 further check the reported output files:
-- gene with LRT P value < 0.05: positively selected gene
+- gene with LRT *P* value < 0.05: positively selected gene
 
 ### Gene Ontology (GO) Enrichment Analysis
 1. prepare the background GO dataset for shared orthologs
