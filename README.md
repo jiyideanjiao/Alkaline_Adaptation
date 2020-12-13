@@ -23,6 +23,9 @@ Trinity \
 --normalize_reads \
 --normalize_max_read_cov 100
 ```
+- output:
+1. Gymnocypris przewalskii
+    GKLK.fa  GKLK_0.9.fa    GKLK.cds (nuc sequence for orotein-coding genes)    GKLK.pep ()
 
 ### Protein-Coding Gene Prediction
 
