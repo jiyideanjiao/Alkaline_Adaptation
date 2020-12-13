@@ -183,7 +183,7 @@ further check the reported output files:
 
 1. prepare the background GO dataset for shared orthologs
 
-use Trinoate pipeline [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
+use **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
 
 2. prepare input geneset (e.g. rapidly evolving genes)
 introduction to **R** package, **topGO** [link](https://bioconductor.org/packages/release/bioc/vignettes/topGO/inst/doc/topGO.pdf)
