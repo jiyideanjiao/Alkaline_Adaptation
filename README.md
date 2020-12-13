@@ -101,7 +101,7 @@ update the <parameters.drw> file
 OMA -n 40
 ```
 ### Sequence Alignment
-1. prepare Amino Acid Sequence Alignment
+1. prepare amino acid sequence alignment
 introduction to **MUSCLE** [link](https://www.ebi.ac.uk/Tools/msa/muscle/)
 - install **MUSCLE** via **conda**
 ```
@@ -112,7 +112,17 @@ conda install -c bioconda muscle
 ```
 snakemake --cores=1 -s snakefile_muscle
 ```
-
+2. prepare codon alignment
+introduction to **pal2nal** [link](http://www.bork.embl.de/pal2nal/)
+- install **pal2nal** via **conda**
+```
+conda install -c bioconda pal2nal
+```
+- input files: {gene}.fa (nucleotide sequence) and {gene}.aln (amino acid sequence)
+- output files: {gene}.pml or {gene}.fas
+```
+perl pal2nal.pl $id.fa -output fasta -nogap > $id.fas
+```
 
 ### Molecular Evolution Analysis
 1. estimate the rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
