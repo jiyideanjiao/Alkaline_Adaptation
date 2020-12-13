@@ -10,7 +10,7 @@ Chao Tong
 
 2. Code availability for submission:
 
-    Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
+    Tong et al. Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
 
 ### Transcriptome Assembly
 
@@ -37,6 +37,21 @@ Trinity \
 
 - output files: GPRZ.fa (fasta format)
 
+### Removed Redundant transcripts using CD-HIT
+- introduction to **CD-HIT** [link](http://weizhongli-lab.org/lab-wiki/doku.php?id=cd-hit-user-guide)
+- install **CD-HIT** via **conda**
+```
+conda install -c bioconda cd-hit
+```
+run cd-hit
+- input files: GPRZ.fa (nucleotide sequence)
+- output file: GPRZ_0.9.fa
+
+```
+cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
+```
+
+
 ### Protein-Coding Gene Prediction
 
 - introduction to **TransDecoder** [link](https://github.com/TransDecoder/TransDecoder/wiki)
@@ -47,15 +62,13 @@ conda install -c bioconda transdecoder
 
 
 ```
-cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
 TransDecoder.LongOrfs -t transcripts_0.9.fa
 TransDecoder.Predict -t transcripts_0.9.fa
 ```
-
+- input files: GPRZ_0.9.fa
 - output files:
-1. GPRZ_0.9.fa
-2. GPRZ.cds (nucleotide sequence)
-3. GPRZ.pep (protein sequence)
+1. GPRZ.cds (nucleotide sequence)
+2. GPRZ.pep (protein sequence)
 
 ### Species phylogeny
 
