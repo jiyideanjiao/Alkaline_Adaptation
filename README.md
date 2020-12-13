@@ -1,16 +1,13 @@
-## Comparative genomic analysis of fish alkaline adaptation
+## Comparative genomics analysis of fish alkaline adaptation
  
 Chao Tong
 (Dec-12, 2020)
- 
-  
-1. Project description:
 
-    Comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
+1. Project description:
+- Comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
 
 2. Code availability for submission:
-
-    Tong et al. Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
+- Tong et al. Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
 
 ### Transcriptome Assembly
 
