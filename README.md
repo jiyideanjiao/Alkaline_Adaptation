@@ -39,7 +39,7 @@ Trinity \
 
 ### Protein-Coding Gene Prediction
 
-- introduction to TransDecoder [link](https://github.com/TransDecoder/TransDecoder/wiki)
+- introduction to **TransDecoder** [link](https://github.com/TransDecoder/TransDecoder/wiki)
 - install **TransDecoder** via **conda**
 ```
 conda install -c bioconda transdecoder
@@ -75,7 +75,7 @@ Rscript pruned_tree.R
 
 
 ### Ortholog identification
-introduction to OMA [link](https://omabrowser.org/oma/home/)
+introduction to **OMA** [link](https://omabrowser.org/oma/home/)
 - install **OMA** via **conda**
 ```
 conda install -c hcc oma
@@ -89,8 +89,8 @@ OMA -n 40
 
 ### Molecular Evolution Analysis
 1. Rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
-- introduction to HyPHY [link](http://www.hyphy.org/)
-- install HyPHY via **conda**
+- introduction to **HyPHY** [link](http://www.hyphy.org/)
+- install **HyPHY** via **conda**
 ```
 conda install -c bioconda hyphy
 ```
@@ -107,4 +107,7 @@ snakemake --cores=1 -s snakefile_relax
 
 ### Positive Selection Analysis
 
+```
+snakemake --cores=1 -s snakefile_busted
+```
 
