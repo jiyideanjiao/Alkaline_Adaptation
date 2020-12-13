@@ -90,7 +90,7 @@ OMA -n 40
 
 
 ### Molecular Evolution Analysis
-estimate the rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
+1. estimate the rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
 - introduction to **HyPHY** [link](http://www.hyphy.org/)
 - install **HyPHY** via **conda**
 ```
@@ -106,6 +106,18 @@ run script with **snakemake** [link](https://snakemake.readthedocs.io/en/stable/
 ```
 snakemake --cores=1 -s snakefile_relax
 ```
+2. Likelihood Ratio Test
+- lnLH1: two discrete ratios of dN/dS
+- lnLH0: one ratio of dN/dS
+``
+ΔlnL = 2(lnLH1-lnLH0)
+```
+discard the gene with reported LRT P value > 0.05 
+
+
+2. extract rapidly evolving gene
+- 
+- ω(alkaline tolerant species) > ω(alkaline intolerant species): rapidly evolving genes in alkaline tolerant species
 
 ### Positive Selection Analysis
 
