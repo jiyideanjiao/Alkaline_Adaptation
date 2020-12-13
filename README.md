@@ -24,7 +24,10 @@ Trinity \
 --normalize_max_read_cov 100
 ```
 - output:
-1. Gymnocypris przewalskii
+1. *Gymnocypris przewalskii
+
+
+2. *Gymnocypris kelukehuensis 
 - GKLK.fa
 - GKLK_0.9.fa
 - GKLK.cds (nucleotide sequence)
