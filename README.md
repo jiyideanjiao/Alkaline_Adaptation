@@ -9,4 +9,6 @@
     Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv. 2020
 
 ###### Transcriptome de novo assembly
-<Trinity>
+```
+Trinity
+```
