@@ -1,7 +1,7 @@
 ## Comparative genomic analysis of fish alkaline adaptation
  
 Chao Tong
-(Dec-13, 2020)
+(Dec-12, 2020)
  
   
 1. Project description:
@@ -179,6 +179,7 @@ further check the reported output files:
 
 ### Gene Ontology (GO) Enrichment Analysis
 1. prepare the background GO dataset for shared orthologs
+
 introduction to **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
 
 2. prepare input geneset (e.g. rapidly evolving genes)
