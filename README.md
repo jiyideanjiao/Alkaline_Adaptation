@@ -45,3 +45,22 @@ TransDecoder.Predict -t transcripts_0.9.fa
 ```
 BUSCO
 ```
+
+
+### Species phylogeny
+
+
+
+
+### Ortholog identification
+
+
+
+
+### Molecular Evolution Analysis
+1. Rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
+HyPHY [link](http://www.hyphy.org/)
+
+
+
+### Positive Selection Analysis
