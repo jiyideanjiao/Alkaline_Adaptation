@@ -57,13 +57,6 @@ TransDecoder.Predict -t transcripts_0.9.fa
 2. GPRZ.cds (nucleotide sequence)
 3. GPRZ.pep (protein sequence)
 
-### BUSCO analysis
-
-```
-BUSCO
-```
-
-
 ### Species phylogeny
 
 introduction to **R** package, **phangorn** [link](https://cran.r-project.org/web/packages/phangorn/phangorn.pdf)
