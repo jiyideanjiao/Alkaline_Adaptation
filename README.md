@@ -190,7 +190,7 @@ further check the reported output files:
 ```
 Rscript topGO_run.R
 ```
-3. further exculte similarity filter
+3. further execute similarity filter
 - introduction to **REVIGO** [link](http://revigo.irb.hr/)
 - input files: enriched_GO.txt (paste to blank on the web page)
 - output files: download, or make a Rscript
