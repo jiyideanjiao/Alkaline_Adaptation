@@ -13,6 +13,13 @@ Chao Tong
     Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
 
 ### Transcriptome *de novo* Assembly
+
+- introduction to **Trinity** [link](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
+- install **Trinity** via **conda**
+```
+conda install -c bioconda trinity
+```
+start **de novo** assembly
 ```
 Trinity \
 --trimmomatic \
@@ -33,7 +40,7 @@ Trinity \
 ### Protein-Coding Gene Prediction
 
 - introduction to TransDecoder [link](https://github.com/TransDecoder/TransDecoder/wiki)
-- install TransDecoder via conda
+- install **TransDecoder** via **conda**
 ```
 conda install -c bioconda transdecoder
 ```
@@ -59,6 +66,8 @@ BUSCO
 
 ### Species phylogeny
 
+introduction to **R** package, **phangorn** [link](https://cran.r-project.org/web/packages/phangorn/phangorn.pdf)
+
 define the function tree_from_aln
 ```
 Rscript pruned_tree.R
@@ -67,7 +76,7 @@ Rscript pruned_tree.R
 
 ### Ortholog identification
 introduction to OMA [link](https://omabrowser.org/oma/home/)
-- install OMA via conda
+- install **OMA** via **conda**
 ```
 conda install -c hcc oma
 ```
@@ -81,7 +90,7 @@ OMA -n 40
 ### Molecular Evolution Analysis
 1. Rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
 - introduction to HyPHY [link](http://www.hyphy.org/)
-- install HyPHY via conda
+- install HyPHY via **conda**
 ```
 conda install -c bioconda hyphy
 ```
@@ -91,7 +100,7 @@ define foreground branches: species {test}
 - codon alignment file (phylip format)
 - phylogenetic tree file (nwk format, add label)
 
-run script with snakemake [link](https://snakemake.readthedocs.io/en/stable/)
+run script with **snakemake** [link](https://snakemake.readthedocs.io/en/stable/)
 ```
 snakemake --cores=1 -s snakefile_relax
 ```
