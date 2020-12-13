@@ -25,7 +25,10 @@ Trinity \
 ```
 - output:
 1. Gymnocypris przewalskii
-    GKLK.fa  GKLK_0.9.fa    GKLK.cds (nuc sequence for orotein-coding genes)    GKLK.pep ()
+- GKLK.fa
+- GKLK_0.9.fa
+- GKLK.cds (nucleotide sequence)
+- GKLK.pep (protein sequence)
 
 ### Protein-Coding Gene Prediction
 
