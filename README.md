@@ -35,7 +35,7 @@ TransDecoder.LongOrfs -t transcripts_0.9.fa
 TransDecoder.Predict -t transcripts_0.9.fa
 ```
 
-- GPRZ.fa
+- output files:
 - GPRZ_0.9.fa
 - GPRZ.cds (nucleotide sequence)
 - GPRZ.pep (protein sequence)
