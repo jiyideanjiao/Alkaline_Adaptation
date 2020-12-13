@@ -23,12 +23,9 @@ Trinity \
 --normalize_reads \
 --normalize_max_read_cov 100
 ```
-- output files:
 - e.g *Gymnocypris przewalskii*
+- output files:
 - GPRZ.fa
-- GPRZ_0.9.fa
-- GPRZ.cds (nucleotide sequence)
-- GPRZ.pep (protein sequence)
 
 ### Protein-Coding Gene Prediction
 
@@ -37,6 +34,12 @@ cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
 TransDecoder.LongOrfs -t transcripts_0.9.fa
 TransDecoder.Predict -t transcripts_0.9.fa
 ```
+
+- GPRZ.fa
+- GPRZ_0.9.fa
+- GPRZ.cds (nucleotide sequence)
+- GPRZ.pep (protein sequence)
+
 ### BUSCO analysis
 
 ```
