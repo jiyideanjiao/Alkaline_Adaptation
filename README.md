@@ -24,10 +24,13 @@ Trinity \
 --normalize_max_read_cov 100
 ```
 - output:
-1. *Gymnocypris przewalskii
+1. *Gymnocypris przewalskii*
+- GPRZ.fa
+- GPRZ_0.9.fa
+- GPRZ.cds (nucleotide sequence)
+- GPRZ.pep (protein sequence)
 
-
-2. *Gymnocypris kelukehuensis 
+2. *Gymnocypris kelukehuensis*
 - GKLK.fa
 - GKLK_0.9.fa
 - GKLK.cds (nucleotide sequence)
