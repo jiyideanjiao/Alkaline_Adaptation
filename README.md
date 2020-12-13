@@ -32,8 +32,8 @@ Trinity \
 
 ### Protein-Coding Gene Prediction
 
-introduction to TransDecoder [link](https://github.com/TransDecoder/TransDecoder/wiki)
-install TransDecoder via conda
+- introduction to TransDecoder [link](https://github.com/TransDecoder/TransDecoder/wiki)
+- install TransDecoder via conda
 ```
 conda install -c bioconda transdecoder
 ```
