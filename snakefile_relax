@@ -8,4 +8,4 @@ rule RELAX:
 	input: "{ogg}.phy"
         output: "{ogg}.out"
         threads: 1
-        shell: "hyphy relax --code Universal --alignment {input} --tree phylogeny.tre --models All --test test > {output}"
+        shell: "hyphy --code Universal --alignment {input} --tree phylogeny.tre --models All --test test > {output}"
