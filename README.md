@@ -7,7 +7,7 @@
 - Comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
 
 2. Code availability for submission:
-- **Tong** *et al*. Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/813501v1.full)
+- **Tong** *et al*. Genomic signature of shifts in selection and alkaline adaptation in Tibetan highland fish. biorxiv, 2020 [link](https://www.biorxiv.org/content/10.1101/2020.12.23.424241v1.abstract)
 
 ### Transcriptome Assembly
 
