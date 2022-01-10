@@ -1,14 +1,14 @@
-## Genomic Signature of Shifts in Selection and Alkaline Adaptation in Highland Fish. Genome Biology and Evolution. 2021.[link](https://academic.oup.com/gbe/article/13/5/evab086/6248097)
+### Comparative and Evolutionary Genomics of Alkaline Tolerant Fish
 - Author: Chao Tong, Miao Li, Yongtao Tang, Kai Zhao
 - Date: Apri-23, 2021
 - Project description: Comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
+- Publication: Genomic Signature of Shifts in Selection and Alkaline Adaptation in Highland Fish. Genome Biology and Evolution. 2021.[link](https://academic.oup.com/gbe/article/13/5/evab086/6248097)
 
-### Transcriptome Assembly
+#### Assembly :: Transcriptome
 
 - introduction to **Trinity** [link](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
 - install **Trinity** via **conda**
 - I love conda! :heart_eyes:
-
 ```
 conda install -c bioconda trinity
 ```
@@ -30,7 +30,7 @@ Trinity \
 
 - output files: GPRZ.fa (fasta format)
 
-### Removed Redundant Transcripts
+#### Removed Redundant Transcripts
 - introduction to **CD-HIT** [link](http://weizhongli-lab.org/lab-wiki/doku.php?id=cd-hit-user-guide)
 - install **CD-HIT** via **conda**
 
@@ -46,7 +46,7 @@ cd-hit -i transcripts.fa -o transcripts_0.9.fa -c 0.9 -n 5 -M 16000 –d 0 -T 8
 ```
 
 
-### Protein-Coding Gene Prediction
+#### Protein-Coding Gene Prediction
 
 - introduction to **TransDecoder** [link](https://github.com/TransDecoder/TransDecoder/wiki)
 - install **TransDecoder** via **conda**
@@ -64,7 +64,7 @@ TransDecoder.Predict -t transcripts_0.9.fa
 1. GPRZ.cds (nucleotide sequence)
 2. GPRZ.pep (protein sequence)
 
-### Species phylogeny
+#### Species phylogeny
 
 - introduction to **R** package, **phangorn** [link](https://cran.r-project.org/web/packages/phangorn/phangorn.pdf)
 
@@ -78,7 +78,7 @@ define the function *pruneTreeFromAln*
 Rscript pruned_tree.R
 ```
 
-### Ortholog identification
+#### Ortholog identification
 - introduction to **OMA** [link](https://omabrowser.org/oma/home/)
 - install **OMA** via **conda**
 ```
@@ -94,7 +94,7 @@ update the <parameters.drw> file
 ```
 OMA -n 40
 ```
-### Sequence Alignment
+#### Sequence Alignment
 1. prepare amino acid sequence alignment
 - introduction to **MUSCLE** [link](https://www.ebi.ac.uk/Tools/msa/muscle/)
 - install **MUSCLE** via **conda**
@@ -118,7 +118,7 @@ conda install -c bioconda pal2nal
 perl pal2nal.pl $id.fa -output fasta -nogap > $id.fas
 ```
 
-### Molecular Evolution Analysis
+#### Molecular Evolution Analysis
 1. estimate the rate of molecular evolution (dN/dS) for alkaline tolerant and alkaline intolerant fish species
 - introduction to **HyPHY** [link](http://www.hyphy.org/)
 - install **HyPHY** via **conda**
@@ -150,7 +150,7 @@ compare the two ratios of dN/dS, LRT *P* value < 0.05
 - ω(alkaline tolerant species) > ω(alkaline intolerant species): rapidly evolving genes in alkaline tolerant species
 
 
-### Positive Selection Analysis
+#### Positive Selection Analysis
 
 1. detect the signal of positive selection at at least one site on at least one branch of *a prori* defined branches (e.g. alkaline tolerant fish)
 - input files:
@@ -165,7 +165,7 @@ BUSTED model automatically discard the gene with reported LRT *P* value > 0.5
 further check the reported output files:
 - gene with LRT *P* value < 0.05: positively selected gene
 
-### Gene Ontology (GO) Enrichment Analysis
+#### Gene Ontology (GO) Enrichment Analysis
 1. prepare the background GO dataset for shared orthologs
 - introduction to **Trinoate pipeline** [link](https://github.com/Trinotate/Trinotate.github.io/wiki) 
 
