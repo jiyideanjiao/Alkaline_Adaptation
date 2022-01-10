@@ -2,7 +2,7 @@
 - Author: Chao Tong, Miao Li, Yongtao Tang, Kai Zhao
 - Date: Apri-23, 2021
 - Project description: Comparative genomics study to understand how Tibetan highland fish adapt to extremely alkaline environment
-- Publication: Genomic signature of shifts in selection and alkaline adaptation in highland fish. **Genome Biology and Evolution**. 2021.[link](https://academic.oup.com/gbe/article/13/5/evab086/6248097)
+- Publication: Genomic signature of shifts in selection and alkaline adaptation in highland fish. **Genome Biology and Evolution**. 2021 [link](https://academic.oup.com/gbe/article/13/5/evab086/6248097)
 
 #### Assembly :: Transcriptome
 
