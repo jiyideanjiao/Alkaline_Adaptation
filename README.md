@@ -8,7 +8,7 @@
 
 - introduction to **Trinity** [link](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
 - install **Trinity** via **conda**
-- I love conda! :heart_eyes:
+
 ```
 conda install -c bioconda trinity
 ```
